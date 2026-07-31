@@ -4,6 +4,6 @@
 //
 
 filegroup {
-    name: "vnd_deadpool.txt",
-    srcs: ["vnd_deadpool.txt"],
+    name: "vnd_ohm.txt",
+    srcs: ["vnd_ohm.txt"],
 }
