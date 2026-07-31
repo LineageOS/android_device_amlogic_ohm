@@ -5,13 +5,11 @@
 #
 
 ## Bluetooth
-PRODUCT_PACKAGES += \
-    OhmBluetoothOverlay \
-    libbt-vendor
+BOARD_HAVE_BLUETOOTH := false
 
 ## Init-Files
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
@@ -23,6 +21,9 @@ TARGET_AMLOGIC_SOC := sc2
 ## Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+## Wi-Fi
+BOARD_HAVE_WIFI := false
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/ne-common/ne.mk)
