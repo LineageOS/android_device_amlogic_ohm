@@ -1,3 +1,3 @@
-# Firmware - from adt3-user 13 TTT1.230205.001 9565391 release-keys - (factory image).
+# Firmware - from Amlogic/ohm_gtv/ohm:12/SC/bin.yang02231735:userdebug/test-keys - (factory image).
 
-bootloader.img
+bootloader.img;AB|2bccbd2f38f15c13eb7d5a89fd9d85f595e23bc3

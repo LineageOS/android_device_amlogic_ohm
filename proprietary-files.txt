@@ -1,39 +1,39 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
-## are from adt3-user 13 TTT1.230205.001 9565391 release-keys.
+## are from onn/jarvis/SNA:14/URO4.260304.011.B1/15051976:user/release-keys.
 
-## Bluetooth Pairing
-product/etc/permissions/privapp-permissions-deadpool.xml
-product/priv-app/DeadpoolService/DeadpoolService.apk
+## Bluetooth
+vendor/etc/bluetooth/qca6174/ar3k/nvm_tlv_3.2.bin
+vendor/etc/bluetooth/qca6174/ar3k/rampatch_tlv_3.2.tlv
+vendor/etc/bluetooth/qca9377/ar3k/nvm_tlv_tf_1.1.bin
+vendor/etc/bluetooth/qca9377/ar3k/rampatch_tlv_tf_1.1.tlv
 
-## DRM
-vendor/lib/liboemcrypto.so
-vendor/lib/libsecmem.so
+## DRM - from Amlogic/ohm_gtv/ohm:12/SC/bin.yang02231735:userdebug/test-keys
+vendor/lib/liboemcrypto.so|2c419f13c3ae5308234bef6341c1b948e46ab430
+vendor/lib/libsecmem.so|bc9eea9cda799284e01149c008b2a3c72c8436d2
 
 ## Droidlogic
 vendor/etc/permissions/droidlogic.software.core.xml
 vendor/framework/droidlogic.software.core.jar
 
+## Firmware
+vendor/lib/firmware/aucpu_fw.bin
+vendor/lib/firmware/video/video_ucode.bin
+
 ## ODM
-odm/etc/firmware/firmware.le
-odm/etc/tvconfig/pq/pq.db
-odm/etc/tvconfig/pq/pq_default.ini
 odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
+
+## OEM
+oem/bin/hdcp_tx22
+oem/etc/audio_policy_configuration.xml
+oem/etc/media_codecs.xml
+oem/etc/media_codecs_performance.xml
+oem/etc/firmware/firmware.le
 
 ## OEM Lock
 vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic
 vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc
 vendor/etc/vintf/manifest/android.hardware.oemlock@1.0-service.droidlogic.xml
-
-## Playready
-vendor/bin/hw/android.hardware.drm@1.4-service.playready
-vendor/etc/drm/playready/bgroupcert.dat
-vendor/etc/drm/playready/zgpriv.dat
-vendor/etc/drm/playready/zgpriv_protected.dat
-vendor/etc/init/android.hardware.drm@1.4-service.playready.rc
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.playready.xml
-vendor/lib/libplayready.so
-vendor/lib/libplayreadymediadrmplugin.so
 
 ## TEE
 vendor/bin/hw/android.hardware.security.keymint-service.amlogic
@@ -43,13 +43,23 @@ vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc
 vendor/etc/init/tee-supplicant.rc
 vendor/etc/init/tee_preload_fw.rc
 vendor/etc/permissions/android.hardware.hardware_keystore.amlogic.xml
-vendor/etc/vintf/manifest/android.hardware.security.keymint-service.amlogic.xml
-vendor/lib/libtee_load_video_fw.so
-vendor/lib/libteec.so
+vendor/etc/vintf/manifest/android.hardware.security.keymint-service-no-rkp.amlogic.xml
 
-## TEE Applets
-vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
-vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
-vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta
-vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta
-vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta
+## TEE Applets - from Amlogic/ohm_gtv/ohm:12/SC/bin.yang02231735:userdebug/test-keys
+vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta|2db2aa3b548ced4b7d7c5760abb793f5da3ec4be
+vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta|cc3bcc75bd864c9c45902efae0a3175895a16ced
+vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta|19b5c33cbb2e2f81cb880ed75087b87a5d368707
+vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta|2cf8e6f13cd565d802a97353939bb96aa4b76671
+vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta|94b809febc0483790b313ee72becdd9d118716d6
+vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c5ca.ta|a86555cba3111abf9a09341f7cd2318fef1f2cd3
+vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta|389faae2b19d627b4d0a197963ba848ff3eb5370
+vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta|dd3b1a7008529966d40eeb1dc0a1b58c94f43879
+
+## Wi-Fi - from Amlogic/ohm_gtv/ohm:12/SC/bin.yang02231735:userdebug/test-keys
+vendor/etc/wifi/qca6174/athwlan.bin|96bd7fa7ba7d75576a1804ca1f124f1984dc118d
+vendor/etc/wifi/qca6174/bdwlan30.bin|9894138fc23d68c0676d89058a2240db80cdb095
+vendor/etc/wifi/qca6174/otp30.bin|e50f93a0eb3a4ad3cbead186eab74fd614674ed2
+vendor/etc/wifi/qca6174/qwlan30.bin|8f66d07a67249744030c1b3726faaf634e2f1a54
+vendor/etc/wifi/qca6174/utf30.bin|4d7b04ad91ce695f568eb25bf3522eb304c57e05
+vendor/etc/wifi/qca6174/wlan/cfg.dat|3f46865ac1ed9f1d064183640fc9963fdf561d20
+vendor/etc/wifi/qca6174/wlan/qcom_cfg.ini|71e5b621f05180a397609e2d5b059e62039e3add
