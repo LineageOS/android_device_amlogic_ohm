@@ -21,11 +21,11 @@ odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
 
 ## OEM
-oem/bin/hdcp_tx22
-oem/etc/audio_policy_configuration.xml
-oem/etc/media_codecs.xml
-oem/etc/media_codecs_performance.xml
-oem/etc/firmware/firmware.le
+#oem/bin/hdcp_tx22
+#oem/etc/audio_policy_configuration.xml
+#oem/etc/media_codecs.xml
+#oem/etc/media_codecs_performance.xml
+#oem/etc/firmware/firmware.le
 
 ## OEM Lock
 vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic
