@@ -6,14 +6,9 @@
 
 ## Bluetooth
 PRODUCT_PACKAGES += \
-    DeadpoolBluetoothOverlay \
+    android.hardware.bluetooth@1.0-service \
+    OhmBluetoothOverlay \
     libbt-vendor
-
-$(call soong_config_set,brcm_libbt,bdroid_buildcfg_include_dir,$(LOCAL_PATH)/bluetooth/include)
-$(call soong_config_set,brcm_libbt,custom_bt_config,//$(LOCAL_PATH):vnd_deadpool.txt)
-
-## Bluetooth firmware
-include kernel/amlogic/kernel-modules/dhd-driver/firmware/bluetooth/bluetooth.mk
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
@@ -23,16 +18,28 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
 
+## Platform
+TARGET_AMLOGIC_SOC := sc2
+
 ## Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/broadcom/libbt
+    hardware/qcom-caf/bt/libbt-vendor \
+    hardware/qcom-caf/wlan \
+    hardware/qcom-caf/wlan/qcwcn
 
-## Wi-Fi firmware
-include kernel/amlogic/kernel-modules/dhd-driver/firmware/wifi/wifi.mk
+## Wi-Fi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi-service \
+    hostapd \
+    libwifi-hal-ctrl:64 \
+    wpa_supplicant \
+    wpa_supplicant.conf
+
+PRODUCT_VENDOR_MOVE_ENABLED := true
 
 ## Inherit from the common tree product makefile
-$(call inherit-product, device/amlogic/g12-common/g12.mk)
+$(call inherit-product, device/amlogic/ne-common/ne.mk)
 
 ## Inherit from the proprietary files makefile
-$(call inherit-product, vendor/askey/deadpool/deadpool-vendor.mk)
+$(call inherit-product, vendor/amlogic/ohm/ohm-vendor.mk)
