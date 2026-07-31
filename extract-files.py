@@ -21,7 +21,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'vendor/amlogic/g12-common',
+    'vendor/amlogic/ne-common',
 ]
 
 blob_fixups: blob_fixups_user_type = {
@@ -38,8 +38,8 @@ extract_fns: extract_fns_user_type = {
 }
 
 module = ExtractUtilsModule(
-    'deadpool',
-    'askey',
+    'ohm',
+    'amlogic',
     blob_fixups=blob_fixups,
     namespace_imports=namespace_imports,
     add_firmware_proprietary_file=True,
@@ -47,5 +47,5 @@ module = ExtractUtilsModule(
 )
 
 if __name__ == '__main__':
-    utils = ExtractUtils.device_with_common(module, '../amlogic/g12-common', module.vendor)
+    utils = ExtractUtils.device_with_common(module, '../amlogic/ne-common', module.vendor)
     utils.run()
