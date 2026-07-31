@@ -3,16 +3,16 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/askey/deadpool
+DEVICE_PATH := device/amlogic/ohm
 
 ## Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 
 ## Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := deadpool
+TARGET_BOOTLOADER_BOARD_NAME := ohm
 
 ## DTB
-TARGET_DTB_NAME := g12a_s905y2_deadpool
+TARGET_DTB_NAME := sc2_s905x4_ah212_drm
 
 ## Kernel modules
 TARGET_KERNEL_EXT_MODULES := \
@@ -35,7 +35,7 @@ WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/dhd/parameters/firmware_path"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 ## Include the common tree BoardConfig makefile
-include device/amlogic/g12-common/BoardConfigCommon.mk
+include device/amlogic/ne-common/BoardConfigCommon.mk
 
 ## Include the proprietary BoardConfig makefile
-include vendor/askey/deadpool/BoardConfigVendor.mk
+include vendor/amlogic/ohm/BoardConfigVendor.mk
