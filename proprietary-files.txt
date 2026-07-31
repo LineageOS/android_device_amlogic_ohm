@@ -1,11 +1,13 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
-## are from adt3-user 13 TTT1.230205.001 9565391 release-keys.
+## are from onn/jarvis/SNA:14/URO4.260304.011.B1/15051976:user/release-keys.
 
-## Bluetooth Pairing
-product/etc/permissions/privapp-permissions-deadpool.xml
-product/priv-app/DeadpoolService/DeadpoolService.apk
+## Bluetooth
+vendor/etc/bluetooth/qca6174/ar3k/nvm_tlv_3.2.bin
+vendor/etc/bluetooth/qca6174/ar3k/rampatch_tlv_3.2.tlv
+vendor/etc/bluetooth/qca9377/ar3k/nvm_tlv_tf_1.1.bin
+vendor/etc/bluetooth/qca9377/ar3k/rampatch_tlv_tf_1.1.tlv
 
-## DRM
+## DRM - from Amlogic/ohm_gtv/ohm:12/SC/bin.yang02231735:userdebug/test-keys
 vendor/lib/liboemcrypto.so
 vendor/lib/libsecmem.so
 
@@ -13,27 +15,29 @@ vendor/lib/libsecmem.so
 vendor/etc/permissions/droidlogic.software.core.xml
 vendor/framework/droidlogic.software.core.jar
 
+## Firmware
+vendor/lib/firmware/aucpu_fw.bin
+vendor/lib/firmware/video/video_ucode.bin
+
 ## ODM
 odm/etc/firmware/firmware.le
 odm/etc/tvconfig/pq/pq.db
 odm/etc/tvconfig/pq/pq_default.ini
 odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
+odm/lib/modules
+
+## OEM
+oem/bin/hdcp_tx22
+oem/etc/audio_policy_configuration.xml
+oem/etc/media_codecs.xml
+oem/etc/media_codecs_performance.xml
+oem/etc/firmware/firmware.le
 
 ## OEM Lock
 vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic
 vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc
 vendor/etc/vintf/manifest/android.hardware.oemlock@1.0-service.droidlogic.xml
-
-## Playready
-vendor/bin/hw/android.hardware.drm@1.4-service.playready
-vendor/etc/drm/playready/bgroupcert.dat
-vendor/etc/drm/playready/zgpriv.dat
-vendor/etc/drm/playready/zgpriv_protected.dat
-vendor/etc/init/android.hardware.drm@1.4-service.playready.rc
-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.playready.xml
-vendor/lib/libplayready.so
-vendor/lib/libplayreadymediadrmplugin.so
 
 ## TEE
 vendor/bin/hw/android.hardware.security.keymint-service.amlogic
@@ -47,9 +51,21 @@ vendor/etc/vintf/manifest/android.hardware.security.keymint-service.amlogic.xml
 vendor/lib/libtee_load_video_fw.so
 vendor/lib/libteec.so
 
-## TEE Applets
+## TEE Applets - from Amlogic/ohm_gtv/ohm:12/SC/bin.yang02231735:userdebug/test-keys
 vendor/lib/teetz/2c1a33c0-44cc-11e5-bc3b-0002a5d5c51b.ta
 vendor/lib/teetz/526fc4fc-7ee6-4a12-96e3-83da9565bce8.ta
 vendor/lib/teetz/8efb1e1c-37e5-4326-a5d6-8c33726c7d57.ta
 vendor/lib/teetz/9a04f079-9840-4286-ab92-e65be0885f95.ta
 vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta
+vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c5ca.ta
+vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta
+vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta
+
+## Wi-Fi - from Amlogic/ohm_gtv/ohm:12/SC/bin.yang02231735:userdebug/test-keys
+vendor/etc/wifi/qca6174/athwlan.bin
+vendor/etc/wifi/qca6174/bdwlan30.bin
+vendor/etc/wifi/qca6174/otp30.bin
+vendor/etc/wifi/qca6174/qwlan30.bin
+vendor/etc/wifi/qca6174/utf30.bin
+vendor/etc/wifi/qca6174/wlan/cfg.dat
+vendor/etc/wifi/qca6174/wlan/qcom_cfg.ini
