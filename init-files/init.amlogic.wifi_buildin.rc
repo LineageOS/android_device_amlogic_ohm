@@ -1,2 +1,2 @@
 on boot
-    insmod /vendor/lib/modules/dhd.ko firmware_path=/wifi/ nvram_path=/wifi/
+    exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -d /vendor/lib/modules wlan_6174 country_code=CN
