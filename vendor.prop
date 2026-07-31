@@ -4,7 +4,7 @@
 #
 
 ## Bluetooth
-bluetooth.device.default_name=ADT-3
+bluetooth.device.default_name=ADT-4
 bluetooth.profile.hfp.ag.enabled=false
 bluetooth.profile.opp.enabled=false
 bluetooth.profile.pbap.server.enabled=false
@@ -21,7 +21,7 @@ ro.vendor.nrdp.audio.mixer.buffersize=1024
 ro.vendor.nrdp.modelgroup=deadpool
 
 ## SOC
-ro.soc.model=AMLS905Y2
+ro.soc.model=AMLS905X4
 
 ## Wi-Fi
 vendor.bcm_wifi=bcm
