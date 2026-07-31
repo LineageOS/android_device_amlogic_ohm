@@ -6,8 +6,7 @@
 
 ## Bluetooth
 PRODUCT_PACKAGES += \
-    OhmBluetoothOverlay \
-    libbt-vendor
+    OhmBluetoothOverlay
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
@@ -23,6 +22,9 @@ TARGET_AMLOGIC_SOC := sc2
 ## Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+## Wi-Fi
+BOARD_HAVE_WIFI := false
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/ne-common/ne.mk)
