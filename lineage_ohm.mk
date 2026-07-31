@@ -16,16 +16,15 @@ $(call inherit-product, vendor/lineage/config/common_full_tv.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_BRAND := ADT-3
-PRODUCT_DEVICE := deadpool
-PRODUCT_GMS_CLIENTID_BASE := android-askey-tv
-PRODUCT_MANUFACTURER := askey
-PRODUCT_MODEL := ADT-3
-PRODUCT_NAME := lineage_deadpool
+PRODUCT_BRAND := Amlogic
+PRODUCT_DEVICE := ohm
+PRODUCT_ATV_CLIENTID_BASE := ATV00100021
+PRODUCT_GMS_CLIENTID_BASE := android-droid-tv
+PRODUCT_MANUFACTURER := Amlogic
+PRODUCT_MODEL := ADT-4
+PRODUCT_NAME := lineage_ohm
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="adt3-user 13 TTT1.230205.001 9565391 release-keys" \
     BuildFingerprint=ADT-3/adt3/adt3:13/TTT1.230205.001/9565391:user/release-keys \
-    DeviceProduct=adt3 \
-    SystemDevice=adt3 \
-    SystemName=adt3
+    SystemName=ohm
