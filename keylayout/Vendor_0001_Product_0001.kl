@@ -110,12 +110,9 @@ key 128   MEDIA_STOP
 key 130   ZOOM_IN
 key 131   ZOOM_OUT
 key 133   INFO
-key 140   F10
 #key 132   TV_REPEAT
 #key 134   TV_SHORTCUTKEY_DISPAYMODE
 key 135   CAPTIONS
 key 136   MEDIA_AUDIO_TRACK
 #key 137   TV_SWITCH
-
-#special for deadpool
-key 218      PAIRING
+key 600    PAIRING
