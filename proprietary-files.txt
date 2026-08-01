@@ -16,6 +16,10 @@ vendor/lib/libsecmem.so|4eda29625df77cf8033700e84a14d14e4a21b8c7
 vendor/lib/firmware/aucpu_fw.bin
 vendor/lib/firmware/video/video_ucode.bin
 
+## Graphics
+vendor/etc/mesondisplay.cfg:recovery/root/system/etc/mesondisplay.cfg;EXTRACT_ONLY
+vendor/etc/mesondisplay.cfg
+
 ## ODM
 odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
