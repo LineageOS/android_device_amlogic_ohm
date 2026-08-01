@@ -21,6 +21,9 @@ BOARD_SUPER_PARTITION_SIZE := 1887436800
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+## Recovery
+TARGET_RECOVERY_DEVICE_DIRS += vendor/amlogic/ohm/proprietary
+
 ## Wi-Fi
 BOARD_WLAN_DEVICE := qcwcn
 BOARD_HOSTAPD_DRIVER := NL80211
