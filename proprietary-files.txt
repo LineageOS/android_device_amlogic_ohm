@@ -16,6 +16,10 @@ vendor/lib/libamavutils.so|dfcfbda879678fb1424b0acb8bdfcbd6f2d50f19
 vendor/lib/firmware/aucpu_fw.bin
 vendor/lib/firmware/video/video_ucode.bin
 
+## Graphics
+recovery/root/sbin/mesondisplay.cfg:recovery/root/system/etc/mesondisplay.cfg;EXTRACT_ONLY
+vendor/etc/mesondisplay.cfg
+
 ## ODM
 odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
