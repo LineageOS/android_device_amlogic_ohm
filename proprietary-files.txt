@@ -7,6 +7,9 @@ vendor/etc/bluetooth/qca6174/ar3k/rampatch_tlv_3.2.tlv
 vendor/etc/bluetooth/qca9377/ar3k/nvm_tlv_tf_1.1.bin
 vendor/etc/bluetooth/qca9377/ar3k/rampatch_tlv_tf_1.1.tlv
 
+## Bluetooth HAL - from Amlogic/ohm/ohm:14/UKG3.250513.001/phh06150144:userdebug/test-keys
+vendor/lib/libbt-vendor_qca.so:vendor/lib/libbt-vendor.so;FIX_SONAME|207ecd1471e31f53d529ee1ee98f94546c708366|2696d38036566131469c35137ffd982f785deea6
+
 ## DRM - from Amlogic/ohm/ohm:14/UKG3.250513.001/phh06150144:userdebug/test-keys
 vendor/lib/liboemcrypto.so|41a0b75c932a1f9d4b7cffcc7372caaa4a20dc30
 vendor/lib/libsecmem.so|4eda29625df77cf8033700e84a14d14e4a21b8c7
