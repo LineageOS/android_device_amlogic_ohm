@@ -20,7 +20,6 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 ## Kernel
 TARGET_KERNEL_PLATFORM_TARGET := ohm
 TARGET_KERNEL_SOURCE := vendor/amlogic/ohm-build
-BOARD_KERNEL_IMAGE_NAME := Image.lz4
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/vendor_dlkm.modules.load))
 BOOT_KERNEL_MODULES := $(strip $(shell cat $(DEVICE_PATH)/vendor_boot.modules.load))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
