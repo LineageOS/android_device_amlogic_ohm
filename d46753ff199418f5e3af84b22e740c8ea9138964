@@ -16,6 +16,24 @@
       "message": "iirc stock jarvis doesn\u0027t have this prop",
       "revId": "d46753ff199418f5e3af84b22e740c8ea9138964",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be2ac534_e0c20186",
+        "filename": "vendor.prop",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-08-03T17:22:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6d9673f9_d20a0e34",
+      "revId": "d46753ff199418f5e3af84b22e740c8ea9138964",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
