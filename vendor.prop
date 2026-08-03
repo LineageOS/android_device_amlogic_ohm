@@ -17,8 +17,8 @@ ro.vendor.platform.support.dolbyvision=false
 vendor.media.support.dolbyvision=false
 
 ## NRDP
-ro.vendor.nrdp.audio.mixer.buffersize=1024
-ro.vendor.nrdp.modelgroup=deadpool
+ro.vendor.nrdp.modelgroup=REFPLUSSNA4K905X4GTVSTB
+ro.vendor.nrdp.oemmodel=onn_onn. Streaming Device 4K pro
 
 ## SOC
 ro.soc.model=AMLS905X4
