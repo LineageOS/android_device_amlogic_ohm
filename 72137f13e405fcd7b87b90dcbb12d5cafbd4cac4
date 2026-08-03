@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0bbada44_abbfecc6",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 10
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2026-08-03T08:10:33Z",
+      "side": 1,
+      "message": "The content is similar to the vendor one anyways. You can just make a copy to recovery and it will look indeed better",
+      "revId": "72137f13e405fcd7b87b90dcbb12d5cafbd4cac4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
