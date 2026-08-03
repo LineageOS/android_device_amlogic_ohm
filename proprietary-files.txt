@@ -23,6 +23,10 @@ vendor/lib/firmware/video/video_ucode.bin
 vendor/etc/mesondisplay.cfg:recovery/root/system/etc/mesondisplay.cfg;EXTRACT_ONLY
 vendor/etc/mesondisplay.cfg
 
+## Netflix
+product/etc/sysconfig/netflix.xml
+vendor/etc/permissions/droidlogic.software.netflix.xml
+
 ## ODM
 odm/lib/libHwAudio_dcvdec.so
 odm/lib/libHwAudio_dtshd.so
