@@ -5,14 +5,7 @@
 
 ## Bluetooth
 PRODUCT_PACKAGES += \
-    OhmBluetoothOverlay \
-    libbt-vendor
-
-$(call soong_config_set,brcm_libbt,bdroid_buildcfg_include_dir,$(LOCAL_PATH)/bluetooth/include)
-$(call soong_config_set,brcm_libbt,custom_bt_config,//$(LOCAL_PATH):vnd_deadpool.txt)
-
-## Bluetooth firmware
-include kernel/amlogic/kernel-modules/dhd-driver/firmware/bluetooth/bluetooth.mk
+    OhmBluetoothOverlay
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
@@ -27,11 +20,14 @@ TARGET_AMLOGIC_SOC := sc2
 
 ## Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/broadcom/libbt
+    $(LOCAL_PATH)
 
-## Wi-Fi firmware
-include kernel/amlogic/kernel-modules/dhd-driver/firmware/wifi/wifi.mk
+## Wi-Fi
+TARGET_HAVE_WIFIHAL := false
+
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/wlan \
+    hardware/qcom-caf/wlan/qcwcn
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/ne-common/ne.mk)
