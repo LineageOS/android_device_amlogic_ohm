@@ -24,4 +24,4 @@ ro.vendor.nrdp.modelgroup=deadpool
 ro.soc.model=AMLS905X4
 
 ## Wi-Fi
-vendor.bcm_wifi=bcm
+vendor.wifi_name=qca
