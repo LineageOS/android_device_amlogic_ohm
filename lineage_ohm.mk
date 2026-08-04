@@ -25,6 +25,6 @@ PRODUCT_MODEL := ADT-4
 PRODUCT_NAME := lineage_ohm
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="adt3-user 13 TTT1.230205.001 9565391 release-keys" \
-    BuildFingerprint=ADT-3/adt3/adt3:13/TTT1.230205.001/9565391:user/release-keys \
+    BuildDesc="jarvis-user 14 URO4.260304.011.B1 15051976 release-keys" \
+    BuildFingerprint=onn/jarvis/SNA:14/URO4.260304.011.B1/15051976:user/release-keys \
     SystemName=ohm
