@@ -6,5 +6,9 @@
   {
     "repository": "android_kernel_amlogic_ohm-build",
     "target_path": "kernel/platform/kernel-5.15/vendor/amlogic/ohm-build"
+  },
+  {
+    "repository": "android_kernel_amlogic_qca6174-driver",
+    "target_path": "kernel/platform/kernel-5.15/vendor/amlogic/qca6174-driver"
   }
 ]
