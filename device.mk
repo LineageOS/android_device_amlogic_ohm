@@ -5,7 +5,7 @@
 
 ## Bluetooth
 PRODUCT_PACKAGES += \
-    OhmBluetoothOverlay
+    BluetoothOverlayTarget
 
 ## Init-Files
 PRODUCT_COPY_FILES += \
@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
 ## Netflix
 PRODUCT_PACKAGES += \
     NetflixConfig \
-    OhmNetflixConfigOverlay
+    NetflixConfigOverlayTarget
 
 ## Platform
 TARGET_AMLOGIC_SOC := sc2
