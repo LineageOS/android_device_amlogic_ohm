@@ -16,6 +16,24 @@
       "message": "Why? We use QCA, and I haven\u0027t been able to get caf wifi hal working. This was the only way I got wifi working",
       "revId": "c4258b39eb7f1884a6644c30a152c1dc69081d6b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96822cc9_dd5678ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-08-22T16:36:29Z",
+      "side": 1,
+      "message": "Try using the AOSP version instead",
+      "parentUuid": "d81f47f0_ac1b555c",
+      "revId": "c4258b39eb7f1884a6644c30a152c1dc69081d6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
