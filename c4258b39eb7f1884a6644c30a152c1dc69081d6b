@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d81f47f0_ac1b555c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-08-22T15:27:54Z",
+      "side": 1,
+      "message": "Why? We use QCA, and I haven\u0027t been able to get caf wifi hal working. This was the only way I got wifi working",
+      "revId": "c4258b39eb7f1884a6644c30a152c1dc69081d6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
