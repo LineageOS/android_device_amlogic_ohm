@@ -25,12 +25,7 @@ TARGET_AMLOGIC_SOC := sc2
 
 ## Soong Namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
-
-## Wi-Fi
-TARGET_HAVE_WIFIHAL := false
-
-PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
     hardware/qcom-caf/wlan \
     hardware/qcom-caf/wlan/qcwcn
 
