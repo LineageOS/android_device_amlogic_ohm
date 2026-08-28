@@ -43,7 +43,6 @@ hid-wiimote.ko
 amlogic-audio-utils.ko
 amlogic-dvb-demux.ko
 amlogic-dvb-ci.ko
-dwc_otg.ko
 amlogic-rtc.ko
 amlogic-pcie.ko
 user_fault.ko
