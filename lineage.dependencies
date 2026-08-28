@@ -1,4 +1,4 @@
-[  
+[
   {
     "repository": "android_device_amlogic_ne-common",
     "target_path": "device/amlogic/ne-common"
@@ -6,6 +6,12 @@
   {
     "repository": "android_kernel_amlogic_ohm-build",
     "target_path": "kernel/platform/kernel-5.15/vendor/amlogic/ohm-build"
+    "linkfiles": [
+      {
+        "src": "build.config.ohm.bazel",
+        "dest": "kernel/platform/kernel-5.15/vendor/amlogic/kernel/build.config.ohm.bazel"
+      }
+    ]
   },
   {
     "repository": "android_kernel_amlogic_qca6174-driver",
