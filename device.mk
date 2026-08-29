@@ -7,9 +7,9 @@
 PRODUCT_PACKAGES += \
     BluetoothOverlayTarget
 
-## Init-Files
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
+## Init
+PRODUCT_PACKAGES += \
+    init.amlogic.wifi_buildin.rc
 
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
