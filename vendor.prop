@@ -14,6 +14,7 @@ vendor.media.support.dolbyvision=false
 ## NRDP
 ro.vendor.nrdp.modelgroup=REFPLUSSNA4K905X4GTVSTB
 ro.vendor.nrdp.oemmodel=onn_onn. Streaming Device 4K pro
+ro.vendor.nrdp.validation=ninja_10
 
 ## SOC
 ro.soc.model=AMLS905X4
