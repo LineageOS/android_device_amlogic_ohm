@@ -19,6 +19,9 @@ vendor/lib/libamavutils.so|dfcfbda879678fb1424b0acb8bdfcbd6f2d50f19
 vendor/lib/liboemcrypto.so|41a0b75c932a1f9d4b7cffcc7372caaa4a20dc30
 vendor/lib/libsecmem.so|4eda29625df77cf8033700e84a14d14e4a21b8c7
 
+## DVB
+vendor/etc/init/dvb.rc
+
 ## Firmware
 vendor/lib/firmware/video/video_ucode.bin
 vendor/lib/firmware/aucpu_fw.bin
