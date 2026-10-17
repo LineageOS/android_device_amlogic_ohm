@@ -30,10 +30,6 @@ vendor/lib/firmware/aucpu_fw.bin
 product/etc/sysconfig/netflix.xml
 vendor/etc/permissions/droidlogic.software.netflix.xml
 
-## ODM
-odm/lib/libHwAudio_dcvdec.so
-odm/lib/libHwAudio_dtshd.so
-
 ## OEM Lock
 vendor/bin/hw/android.hardware.oemlock@1.0-service.droidlogic
 vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc
